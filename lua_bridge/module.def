@@ -1,0 +1,6 @@
+[Module]
+Name=NLPBridge
+Dependencies=minionlib
+Version=1
+Files=nlp_bridge.lua
+Enabled=1

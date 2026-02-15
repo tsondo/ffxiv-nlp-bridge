@@ -1,9 +1,9 @@
-from enum import StrEnum
+from enum import Enum
 
 from pydantic_settings import BaseSettings
 
 
-class LLMProvider(StrEnum):
+class LLMProvider(str, Enum):
     CLAUDE = "claude"
     OPENAI_COMPAT = "openai"
 
