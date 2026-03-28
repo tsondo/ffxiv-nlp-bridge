@@ -1,0 +1,6 @@
+[Module]
+Name=firstaddon
+Version=1
+Files=firstaddon.lua
+Dependencies=minionlib
+Enabled=1
