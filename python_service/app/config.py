@@ -13,8 +13,6 @@ class Settings(BaseSettings):
     llm_api_key: str = ""
     llm_model: str = ""
     llm_base_url: str = ""
-    minion_host: str = "localhost"
-    minion_port: int = 19800
     host: str = "0.0.0.0"
     port: int = 8000
 
@@ -36,9 +34,6 @@ class Settings(BaseSettings):
             return "http://localhost:8080/v1"
         return ""
 
-    @property
-    def minion_url(self) -> str:
-        return f"http://{self.minion_host}:{self.minion_port}"
 
 
 settings = Settings()
