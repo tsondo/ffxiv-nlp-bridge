@@ -18,14 +18,3 @@ class CommandResponse(BaseModel):
     error: str | None = None
 
 
-class PendingCommand(BaseModel):
-    command_id: str
-    task: str
-    params: dict = {}
-
-
-class ResultReport(BaseModel):
-    command_id: str
-    success: bool
-    message: str = ""
-    status: dict = {}

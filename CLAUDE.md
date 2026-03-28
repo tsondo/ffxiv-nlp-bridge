@@ -142,10 +142,11 @@ lua_bridge/                # Our FFXIVMinion addon (uses LuaComm)
 └── nlp_agent.lua          # LuaComm agent + task handlers
 
 docs/
+├── SPEC.md                # Detailed implementation specification
+├── luaComm_SPEC.md        # LuaComm API & integration reference
 ├── minionlib.md           # MinionLib Lua API reference
 ├── argus_docs.md          # Argus drawing/detection library reference
-├── gui_api.md             # GUI API reference for in-game UI
-└── SPEC.md                # Detailed implementation specification
+└── gui_api.md             # GUI API reference for in-game UI
 
 scripts/
 ├── import_game_data.py    # (PLANNED) Bulk import from XIVAPI / Teamcraft dumps
